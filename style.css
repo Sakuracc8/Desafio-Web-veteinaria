@@ -1,0 +1,94 @@
+
+header{
+    background-color: #bf9ef0;
+    color:#fff;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #d3bcf6;
+    height: 1.2cm;
+
+}
+ul{
+    margin:0;
+    padding:0;
+}
+.nav__li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.nav__li a{
+    color: #fff;
+    text-decoration: none;
+}
+button{
+    background-color:#d3bcf6;
+    border:none;
+    padding-bottom: 0.5rem;
+}
+button:hover{
+    background-color: #bf9ef0;
+}
+body{
+    width:100%;
+    background-image: url(img/fondo.jpg);
+    background-size: 100%;
+    
+}
+.nosotros{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nosotros h2{
+    color:red
+}
+
+.h2_servicios{
+    text-align: center;
+}
+.div_servicios{
+    text-align: center;
+    display:flex;
+    justify-content:space-evenly;
+}
+.div_servicios img{
+    width: 100px;
+    border-style:solid;
+    border-color: #bf9ef0;
+}
+
+.div_servicios_caja1{
+    width: 20%;
+    background-color:#f6d1de;
+    padding:15px;
+    border-style:solid;
+    border-color:#bf9ef0;
+}
+
+.div_servicios_caja2{
+    width: 20%;
+    background-color:#acf7c3;
+    padding:15px;
+    border-style:solid;
+    border-color:#bf9ef0;
+}
+.div_servicios_caja3{
+    width: 20%;
+    background-color:#bae0f5;
+    padding:15px;
+    border-style:solid;
+    border-color:#bf9ef0;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+.contacto img{
+    height: 1cm;
+}
